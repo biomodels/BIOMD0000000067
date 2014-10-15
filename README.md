@@ -1,3 +1,21 @@
+# BIOMD0000000067: Fung2005_Metabolator
+
+## Installation
+
+Download this repository, and install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/BIOMD0000000067.git`
+
+To install a specific version (in this example, from the 2014-09-16 BioModels release)
+
+`pip install git+https://github.com/biomodels/BIOMD0000000067.git@20140916`
+
+
+# Model Notes
 
 
 # A Synthetic Gene-Metabolic Oscillator
@@ -35,4 +53,5 @@ Vgly = 0.5. The authors have agreed that the values on Y-axis are marked wrong
 and hence there is a discrepancy between model simulation results and the
 figure. Also, note that the values of concentration and time are in
 dimensionless units. The model was successfully tested on MathSBML and Jarnac.
+
 
